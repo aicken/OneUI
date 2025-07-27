@@ -1,57 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
- <head> 
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
-  <title>OneUI - Clear and elegant Design language</title>
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" /> 
-  <meta content="yes" name="apple-mobile-web-app-capable" /> 
-  <meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
-  <meta content="telephone=no" name="format-detection" /> 
-  <meta name="renderer" content="webkit" /> 
-  <meta name="keywords" content="OneUI、design language、library、UI" />
-  <meta name="description" content="OneUI - Clear and elegant design language" />
-  <link href="assets/css/style.css" type="text/css" rel="stylesheet" />
-  <link href="assets/img/favicon.ico" rel="shortcut icon">
-  <meta name="baidu-site-verification" content="1ldGfyeurh" />
- </head> 
- <body> 
-  <div class="header"> 
-   <div class="logo-title"> 
-    <div class="title animated fadeInDown"> 
-     <h1 title=""><img src="assets/img/oneui-logo.png" width="320" height="90" alt="OneUI"></h1>
-     <div class="description animated fadeInDown"> 
-      <p>Clear and elegant Design language</p>
-     </div> 
-    </div> 
-   </div> 
-   <ul class="social-links animated fadeInDown"> 
-   </ul> 
-  </div> 
-  <div class="autopagerize_page_element"> 
-   <div class="content"> 
-    <div class="post-page"> 
-     <div class="post"> 
-      <div class="post-title"> 
-       <h3>What is OneUI</h3>
-      </div> 
-      <div class="post-content">
-       <p>OneUI is a design language dedicated to the use of mobile products, allowing designers and developers to reduce redundant production costs and focus on a better user experience through a modular solution.</p>
-       <p><a href="https://h5ui.io/" title="H5UI" target="_blank">H5UI</a></p>
-      </div>
-      <div class="post-footer">
-       <div class="meta">
-        <div class="info">
-         <i class="fa fa-clock-o"></i>
-         <span class="date">2018-07-21</span>
-        </div>
-       </div>
-      </div>
-     </div> 
-    </div> 
-   </div> 
-  </div>
-  <div class="footer">
-   <span>All content copyright <a href="https://oneui.io/" title="OneUI">OneUI</a> &copy; 2019 • All rights reserved.</span>
-  </div>
- </body>
+<head>
+<meta charset="utf-8">
+<title>HMS</title>
+<link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAARVBMVEUAAAAaGhobGxsgICAbGxsbGxsbGxsbGxsbGxsdHR0cHBwaGhr///+MjIxFRUWvr6+pqamFhYXh4eHS0tJkZGRPT08vLy+dRoZ5AAAAC3RSTlMA85YY49nHv4JHLX25UXwAAACpSURBVDjLhZNbFoMgDAWTKCBG+m73v9TSFgGrcOeLcxgSIAlVeHGG2TjxdMAgrBmWgf6YWDfwtD1udYetgsyjHjDO+Xza3xlrDKsNbLqfNpm+Cbgt8CeJaCKE8NDIMy5e+kOikAMsy3LWyDUuTmsIIq89QT1JXxByfcGRqYXbJXKvBUNchEIRGAowBbwkfCb8KPTVsFiw3KhhUMvBpoVtjwcHjx4eXjj+b2x+Ip8uecnlAAAAAElFTkSuQmCC">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<style type="text/css">
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    html {
+        min-height: 100%;
+    }
+    body {
+        font: 400 16px/1.6 Helvetica, Helvetica Neue, Arial, sans-serif;
+        background: #fff;
+    }
+    .page{
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        text-align: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .hms-logo{
+        width: auto;
+        height: 52px;
+    }
+    .sale{
+        z-index: -1;
+        position: absolute;
+        padding-top: 100px;
+        color: #222;
+        letter-spacing: .8px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+</style>
+</head>
+
+<body>
+    <div class="page">
+        <a href="https://sedo.com/search/details/?domain=hms.io">
+            <img src="data:image/png;base64,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" title="HMS - Domain for Sale!!" alt="HMS - Domain for Sale!!" class="hms-logo">
+        </a>
+        <p class="sale">Domain for Sale!!</p>
+    </div>
+</body>
 </html>
